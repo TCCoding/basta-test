@@ -1,6 +1,7 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-				
+				<fieldset>
+                <legend>Footer</legend>
                 <nav class="footer_nav">
                 <?php
                 wp_nav_menu(
@@ -25,7 +26,7 @@
 				);
 				?>
                 </nav>
-
+				</fieldset>
 			</footer>
 			<!-- /footer -->
 

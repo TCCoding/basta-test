@@ -22,7 +22,8 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-
+				<fieldset>
+                	<legend>Header</legend>
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -38,6 +39,6 @@
 						 ?>
 					</nav>
 					<!-- /nav -->
-
+				</fieldset>
 			</header>
 			<!-- /header -->

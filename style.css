@@ -86,6 +86,25 @@ a img.aligncenter {
 
 /* TCC Styles */
 
+.wrapper
+{
+	width:1024;
+	margin:0 auto;	
+}
+
+
+fieldset
+{
+	padding:2%;
+	border:2px inset;	
+}
+
+legend
+{
+	font-weight:bold;
+	font-size:2em;	
+}
+
 .mobile_only
 {
 	display:none;	
