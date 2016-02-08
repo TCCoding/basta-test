@@ -47,9 +47,9 @@ function tcc_register_menus()
 {
     register_nav_menus(
 		array( 
-        'header-menu' => __('Header Menu', 'html5blank'), // Main menu
-        'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar menu
-        'footer-menu' => __('Extra Menu', 'html5blank') // Footer menu
+        'header-menu' => __('Header Menu', 'tcc_test'), // Main menu
+        'sidebar-menu' => __('Sidebar Menu', 'tcc_test'), // Sidebar menu
+        'footer-menu' => __('Extra Menu', 'tcc_test') // Footer menu
     ));
 }
 
@@ -57,7 +57,6 @@ function tcc_register_menus()
 add_action('init', 'tcc_enqueue_scripts'); // Adding the header scripts
 add_action('wp_enqueue_scripts', 'tcc_styles'); // Adding Theme Stylesheet
 add_action('init', 'tcc_register_menus'); // Adding the menus
-
 
 
 ?>
