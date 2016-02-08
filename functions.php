@@ -7,7 +7,11 @@ function tcc_enqueue_scripts() {
 	wp_register_script( 'sourcejs', $js_dir . 'source.js', 'jquery', '1.0' );
 
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'sourcejs' ); 
+	
+	if(!is_admin())
+	{
+		wp_enqueue_script( 'sourcejs' ); 
+	}
 } 
 
 
